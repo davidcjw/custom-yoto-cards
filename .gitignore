@@ -1,0 +1,33 @@
+# --- Secrets: NEVER commit ---
+# .yoto-token.json holds the cached Yoto OAuth refresh token
+.yoto-token.json
+.env
+*.local
+CLAUDE.local.md
+
+# --- Downloaded / copyrighted audio + tooling binaries ---
+*.mp3
+*.m4a
+*.webm
+# yt-dlp standalone binary (re-download as needed)
+/yt-dlp
+
+# --- Personal working content: keep local, don't publish ---
+# Your own playlists + their generated pixel-art icons live here.
+# Use example-playlist/ as the committed template instead.
+/my-*/
+/yoto-icons/
+/docs/demo.png
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- OS / editor cruft ---
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

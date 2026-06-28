@@ -1,0 +1,8 @@
+{
+  "cardId": null,
+  "title": "My Example Playlist",
+  "tracks": [
+    { "title": "Track One", "match": "track-one", "icon": "1-track-one.png" },
+    { "title": "Track Two", "match": "track-two", "icon": "2-track-two.png" }
+  ]
+}
